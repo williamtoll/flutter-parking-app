@@ -15,34 +15,34 @@ These instructions will get you a copy of the project up and running on your loc
 ## Run the app
 flutter run
 
-## Tests
+# Tests
 Tests are created with Mockito
 https://pub.dev/packages/mockito
 
-Run tests
+## Run tests
 flutter test 
 
-Run test with coverage 
+## Run test with coverage 
 flutter test --coverage 
 
-Check coverage with the following VSCode plugins 
-Flutter Coverage
-https://marketplace.visualstudio.com/items?itemName=Flutterando.flutter-coverage
+## Check coverage with the following VSCode plugins 
+- Flutter Coverage
+    https://marketplace.visualstudio.com/items?itemName=Flutterando.flutter-coverage
 
-Coverage Gutters
-https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters
+- Coverage Gutters
+    https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters
 
 
 ## Features
-Search parking spots by city
-View detailed information about each parking spot
-View parking spots on a map
-Save favorite parking spots
-Filter parking spots by type and availability
+- Search parking spots by street name
+- View detailed information about each parking spot
+- View parking spots on a map
+- Filter parking spots by availability
+- Save and view favorite parking spots
 
 ## Built With
-Flutter - The mobile app framework used
-Dart - The programming language used
-Flutter Map - Used to display maps in the app
-Flutter Map Marker Cluster - Used to cluster markers on the map
-Mockito - Mock classes and test main logic
+- Flutter - The mobile app framework used
+- Dart - The programming language used
+- Flutter Map - Used to display maps in the app
+- Flutter Map Marker Cluster - Used to cluster markers on the map
+- Mockito - Mock classes and test main logic
