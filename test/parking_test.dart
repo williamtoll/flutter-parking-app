@@ -8,8 +8,6 @@ import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:http/http.dart' as http;
 
-import 'parking_test_mockito.mocks.dart';
-
 class ApiSdkMock extends Mock implements ApiSdk {
   Future<Parking> fetchParkingList(String search, String availability) async =>
       Parking.fromJson({
@@ -82,8 +80,6 @@ class ParkingListStateMock extends Mock implements ParkingListState {
 @GenerateMocks([http.Client])
 void main() {
   final apiSdkMock = ApiSdkMock();
-  final parkingListPageMock = ParkingListPageMock();
-  final parkingListStateMock = ParkingListStateMock();
 
   test('check the fetch parking list feature, get data from the API', () async {
     expect(await apiSdkMock.fetchParkingList('', ''), isA<Parking>());
