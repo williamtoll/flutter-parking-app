@@ -1,4 +1,4 @@
-<a href="https://github.com/williamtoll/flutter-parking-app/actions"><img src="https://github.com/williamtoll/flutter-parking-app/workflows/test-my-app/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/williamtoll/flutter-parking-app/actions"><img src="https://github.com/williamtoll/flutter-parking-app/workflows/firebase-hosting-merge.yml/badge.svg" alt="Build Status"></a>
 
 ## My Flutter App
 This is a Flutter mobile app that allows users to explore parking spots in their city.
